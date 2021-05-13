@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('main')
-  <p>Home</p>
+  <p>Home Party</p>
 @endsection
