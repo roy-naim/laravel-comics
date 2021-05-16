@@ -1,5 +1,43 @@
-.ciao {
-  color: blue;
+.nav-top {
+  background-color: #0282f9;
+  color: #fff;
+}
+
+.nav-top .container-flex {
+  justify-content: flex-end;
+}
+
+nav .dc-logo {
+  width: 50px;
+}
+
+nav .dc-logo img {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  padding: 0 20px;
+}
+
+.jumbotron {
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .container-flex {
@@ -17,5 +55,17 @@
 .container-flex .card .thumb-img {
   height: 200px;
   overflow: hidden;
+}
+
+.bg-black {
+  background-color: #1c1c1c;
+}
+
+.no-stylelist {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 

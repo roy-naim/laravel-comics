@@ -9,7 +9,7 @@
     </head>
     <body>
       @include('partials.header')
-      <main>
+      <main class="bg-black">
         @yield('main')
       </main>
       @include('partials.footer')

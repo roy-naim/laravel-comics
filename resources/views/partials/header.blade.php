@@ -1,6 +1,15 @@
 <header>
-  <nav>
-    <ul>
+  <div class="nav-top">
+    <div class="container-flex">
+      <p>DC Power</p>
+      <p>additional DC sites</p>
+    </div>
+  </div>
+  <nav class="container-flex">
+    <div class="dc-logo">
+      <img src="/img/dc-logo.png" alt="DClogo">
+    </div>
+    <ul  class="no-stylelist">
       <li>
         <a href="/single">CHARACTERS</a>
       </li>
@@ -33,7 +42,6 @@
       </li>
     </ul>
   </nav>
-  <div class="jumbo">
-
+  <div class="jumbotron">
   </div>
 </header>

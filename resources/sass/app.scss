@@ -1,6 +1,16 @@
 //
 @import 'partials/_header.scss';
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .container-flex {
   display: flex;
   flex-wrap: wrap;
@@ -16,4 +26,15 @@
       overflow: hidden;
     }
   }
+}
+
+.bg-black {
+  background-color: #1c1c1c;
+}
+.no-stylelist {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
