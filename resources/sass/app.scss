@@ -1,2 +1,19 @@
 //
 @import 'partials/_header.scss';
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 80%;
+  margin: 0 auto;
+
+  .card {
+    width: calc(100%/6 - 20px);
+    margin: 0 10px;
+    .thumb-img {
+      height: 200px;
+      overflow: hidden;
+    }
+  }
+}
