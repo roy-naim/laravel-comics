@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('home')->with('comics', config('comics'));
 });
 
-Route::get('/info', function () {
-    return view('info');
-});
+Route::get('/single/{id}', function () {
+    return view('single');
+})->name('new-page');
